@@ -3,15 +3,22 @@ body {background-image: url('https://s-media-cache-ak0.pinimg.com/564x/28/38/01/
 }
 
 h1{color: #FFF;
-  margin-top: -100px;
-  margin-bottom: 70px;
+  margin-top: -40px;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 1px #000
 }
 .sun {
   margin-left: 100px;
 }
+
+.icon {
+  padding: 10px; 
+    float: left;
+}
+
 /*----- Tabs -----*/
 .tabs {
-    width:80%;
+    width:900px;
   background:rgba(255,255,255,0.6);
   border-radius: 5px;
   margin: auto;
@@ -29,10 +36,11 @@ h1{color: #FFF;
     }
 
     .tab-links li {
-        margin: 5px 10px 5px -100px;
+        margin: 5px 10px 5px;
         padding: 15px; 
         list-style:none;
-  display: block;  
+        display: block;  
+
 }
 
         .tab-links a {
@@ -59,13 +67,14 @@ h1{color: #FFF;
     .tab-content {
         padding:15px;
         border-radius:3px;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        box-shadow: 5px 5px 1px rgba(0,0,0,0.15);
         background:#fff;
   float: right;
   height: 400px;
-  margin-top: -350px;
+  margin-top: -580px;
   margin-right: 20px;
   margin-bottom: 20px;
+  width: 550px
 
     }
 
